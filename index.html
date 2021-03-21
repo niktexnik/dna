@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DNA-RNA</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <form name="my" id="window">
+    <label for="dna">Input sequence DNA</label>
+    <input type="text" name="dna" title="Разрешен ввод только C, G, T, A" pattern="^[C, G, T, A, c, g, t, a]+$" id="dnarna">
+    <input type="submit" value="submit">
+  </form>
+  <p> 
+    Result of converting DNA to RNA: 
+    <span id="resultSpan">N/A</span>
+  </p>
+</div>
+</body>
+
+</html>
